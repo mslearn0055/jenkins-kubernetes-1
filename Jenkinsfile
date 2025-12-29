@@ -9,7 +9,8 @@ pipeline {
 
   stages {
 
-    stage('Checkout Source') {
+    stage('Checkout Source') {    ##############new code added new code  ......
+    
       steps {
         git 'https://github.com/mslearn0055/jenkins-kubernetes-deployment.git'
       }

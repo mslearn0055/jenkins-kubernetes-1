@@ -13,4 +13,9 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["npm", "start"]   ##############new code added 
+#################################
+# Dockerfile for React Application
+
+
+# Base Image

@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: react-app 
+        app: react-app ######## the new code 
     spec:
       containers:
       - name: react-app
